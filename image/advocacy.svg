@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<g id="Black">
+	<g>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M3.5,22.5L9,22.5L17,20.5L18.5,18.5L8.5,18.5L8.5,14.5L7.5,14.5L5,18.5L3.5,18.5" style="stroke-dasharray: 38, 40; stroke-dashoffset: 0;"/>
+		
+			<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="3" height="6" d="M0.5 17.5 L3.5 17.5 L3.5 23.5 L0.5 23.5 Z" style="stroke-dasharray: 18, 20; stroke-dashoffset: 0;"/>
+		
+			<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M13.5,13.5L19.965,7.036" style="stroke-dasharray: 10, 12; stroke-dashoffset: 0;"/>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M20,11L16.5,10.5L16,7L19.257,3.5L21.5,3.5L23.5,2L23.5,8Z" style="stroke-dasharray: 28, 30; stroke-dashoffset: 0;"/>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M6.882,6.882L13.5,13.5L13.5,16.5" style="stroke-dasharray: 13, 15; stroke-dashoffset: 0;"/>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M7,12L11.514,11.514L12,7L8,2.5L5.5,2.5L2.5,0.5L2.5,8Z" style="stroke-dasharray: 35, 37; stroke-dashoffset: 0;"/>
+	</g>
+</g>
+<g id="Frames-24px">
+	<path fill="none" width="24" height="24" d="M0 0 L24 0 L24 24 L0 24 Z" style="stroke-dasharray: 96, 98; stroke-dashoffset: 0;"/>
+</g>
+</svg>

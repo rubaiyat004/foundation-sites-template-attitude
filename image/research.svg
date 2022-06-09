@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<g id="Black">
+	<g>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M10.5,23.5L0.5,23.5L0.5,0.5L11.5,0.5L17.5,6.5L17.5,13.5" style="stroke-dasharray: 60, 62; stroke-dashoffset: 0;"/>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M11.5,0.5L11.5,6.5L17.5,6.5" style="stroke-dasharray: 12, 14; stroke-dashoffset: 0;"/>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M9.167,8.5L12.5,8.5L12.5,18.5L9.167,18.5" style="stroke-dasharray: 17, 19; stroke-dashoffset: 0;"/>
+		
+			<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M9.167,13.5L15.5,13.5" style="stroke-dasharray: 7, 9; stroke-dashoffset: 0;"/>
+		<g>
+			<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M14.111,20.768L21.379,13.5L23.5,15.622L16.232,22.889L13.5,23.5Z" style="stroke-dasharray: 30, 32; stroke-dashoffset: 0;"/>
+		</g>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M9.5,7.5L4.5,7.5L3.5,10.5L8.5,10.5Z" style="stroke-dasharray: 17, 19; stroke-dashoffset: 0;"/>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M9.5,12.5L4.5,12.5L3.5,15.5L8.5,15.5Z" style="stroke-dasharray: 17, 19; stroke-dashoffset: 0;"/>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M9.5,17.5L4.5,17.5L3.5,20.5L8.5,20.5Z" style="stroke-dasharray: 17, 19; stroke-dashoffset: 0;"/>
+	</g>
+</g>
+<g id="Frames-24px">
+	<path fill="none" width="24" height="24" d="M0 0 L24 0 L24 24 L0 24 Z" style="stroke-dasharray: 96, 98; stroke-dashoffset: 0;"/>
+</g>
+</svg>

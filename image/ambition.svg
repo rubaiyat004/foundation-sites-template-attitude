@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<g id="Black">
+	<g>
+		<g>
+			
+				<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="23" height="17" d="M0.5 2.5 L23.5 2.5 L23.5 19.5 L0.5 19.5 Z" style="stroke-dasharray: 80, 82; stroke-dashoffset: 0;"/>
+			
+				<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M6.5,23.5L17.5,23.5" style="stroke-dasharray: 11, 13; stroke-dashoffset: 0;"/>
+			
+				<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M10.5,19.5L10.5,23.5" style="stroke-dasharray: 4, 6; stroke-dashoffset: 0;"/>
+			
+				<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M13.5,19.5L13.5,23.5" style="stroke-dasharray: 4, 6; stroke-dashoffset: 0;"/>
+		</g>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M12.5,12L19.5,9L12.5,6L5.5,9Z" style="stroke-dasharray: 31, 33; stroke-dashoffset: 0;"/>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M8.5,10.286L8.5,14L12.5,16L16.5,14L16.5,10.286" style="stroke-dasharray: 17, 19; stroke-dashoffset: 0;"/>
+		
+			<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M5.5,9L5.5,12.5" style="stroke-dasharray: 4, 6; stroke-dashoffset: 0;"/>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M5.5,12.5L4,15.5L7,15.5L5.5,12.5" style="stroke-dasharray: 10, 12; stroke-dashoffset: 0;"/>
+	</g>
+</g>
+<g id="Frames-24px">
+	<path fill="none" width="24" height="24" d="M0 0 L24 0 L24 24 L0 24 Z" style="stroke-dasharray: 96, 98; stroke-dashoffset: 0;"/>
+</g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<g id="Black">
+	<g>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M5.5,17.5L3.5,18.5L1.5,17.5L1.5,15L3.5,14L5.5,15Z" style="stroke-dasharray: 14, 16; stroke-dashoffset: 0;"/>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M6.5,23.5L6.5,20.5L3.5,19.5L0.5,20.5L0.5,23.5Z" style="stroke-dasharray: 19, 21; stroke-dashoffset: 0;"/>
+		<g>
+			
+				<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M11.5,12.5L11.5,15.5" style="stroke-dasharray: 3, 5; stroke-dashoffset: 0;"/>
+			<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M9,17.5L11.5,15.5L14,17.5" style="stroke-dasharray: 7, 9; stroke-dashoffset: 0;"/>
+		</g>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M21.5,17.5L19.5,18.5L17.5,17.5L17.5,15L19.5,14L21.5,15Z" style="stroke-dasharray: 14, 16; stroke-dashoffset: 0;"/>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M22.5,23.5L22.5,20.5L19.5,19.5L16.5,20.5L16.5,23.5Z" style="stroke-dasharray: 19, 21; stroke-dashoffset: 0;"/>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M13.5,4.5L11.5,5.5L9.5,4.5L9.5,2L11.5,1L13.5,2Z" style="stroke-dasharray: 14, 16; stroke-dashoffset: 0;"/>
+		<path fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M14.5,10.5L14.5,7.5L11.5,6.5L8.5,7.5L8.5,10.5Z" style="stroke-dasharray: 19, 21; stroke-dashoffset: 0;"/>
+	</g>
+</g>
+<g id="Frames-24px">
+	<path fill="none" width="24" height="24" d="M0 0 L24 0 L24 24 L0 24 Z" style="stroke-dasharray: 96, 98; stroke-dashoffset: 0;"/>
+</g>
+</svg>
