@@ -5,7 +5,12 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attitude</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/app.css">
+    
   </head>
   <body>
     <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
@@ -498,10 +503,93 @@
 
       </div>
     </section>
+    <section class="carousel">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="grid-x">
+              <div class="cell ">
+                <img src="image/team-1.jpg" alt="">
 
+              </div>
+
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="grid-x">
+              <div class="cell ">
+                <img src="image/team-2.jpg" alt="">
+
+              </div>
+
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="grid-x">
+              <div class="cell ">
+                <img src="image/team-3.jpg" alt="">
+
+              </div>
+
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="grid-x">
+              <div class="cell ">
+                <img src="image/team-4.jpg" alt="">
+
+              </div>
+
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="grid-x">
+              <div class="cell ">
+                <img src="image/team-5.jpg" alt="">
+
+              </div>
+
+            </div>
+          </div>
+          
+          
+          
+          
+          
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/what-input/dist/what-input.js"></script>
     <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 0,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 0,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
