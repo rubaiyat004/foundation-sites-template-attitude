@@ -1,5 +1,8 @@
 .dropdown .is-dropdown-submenu a {
     color: #888888;
+    &:hover{
+        color: $black;
+    }
    
 }
 .header-content{
@@ -23,7 +26,7 @@
     &:hover{
         border-top: 2px solid white;
         transition: all ease .25s;
-        
+
         
     }
     
