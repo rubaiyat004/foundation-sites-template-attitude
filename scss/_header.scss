@@ -2,3 +2,29 @@
     color: #888888;
    
 }
+.header-content{
+    color:$white;
+    
+    position: relative;
+}
+.top-nav{
+    border-bottom: 1px solid #888888;
+}
+.top-nav .top-bar-main{
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5rem;
+
+}
+.top-nav .top-bar-main .main-item{
+    padding: 1rem 1rem;
+    &:hover{
+        border-top: 2px solid white;
+        transition: all ease .25s;
+        
+        
+    }
+    
+}
