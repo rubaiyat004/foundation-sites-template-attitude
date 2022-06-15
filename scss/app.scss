@@ -3,11 +3,6 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
-@import 'main';
-@import 'header';
-@import 'bottom-cell';
-@import 'about';
-@import 'slider';
 
 // Global styles
 @include foundation-global-styles;
@@ -68,3 +63,10 @@
 // Motion UI
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+
+@import 'main';
+@import 'header';
+@import 'bottom-cell';
+@import 'about';
+@import 'slider';
