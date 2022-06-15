@@ -64,15 +64,14 @@
 
 // 1. Global
 // ---------
-$primary-color: #d31027;
-$secondary-color: #0b75d0;
-$tertiary-color: #d07a0b;
+
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
   primary: #d31027,
   secondary: #0b75d0,
+  tertiary:#d07a0b,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
