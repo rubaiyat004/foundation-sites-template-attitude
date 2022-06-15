@@ -1,5 +1,24 @@
-.image-block-1 .position-relative-1{
+
+.about{
+    padding: 80px 0px;
+    .title{
+        color: $primary-color;
+        font-size: 1.375rem;
+    font-weight: normal;
+    }
+}
+.image-block-1 .first-img{
         width:75%;
         position: relative;
         height: auto;
+        float: right;
+        
+    }
+
+.image-block-1 .position-absolute-1{
+    position: absolute;
+    width: 25%;
+    
+    
+
     }
