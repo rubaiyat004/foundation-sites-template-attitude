@@ -6,18 +6,25 @@
         font-size: 1.375rem;
     font-weight: normal;
     }
+    .grid-x{
+        padding: 10px 0px;
+        .cell{
+            padding: 50px 0px;
+        }
+    }
 }
 .image-block-1 .first-img{
-        width:75%;
+        max-width:75%;
         position: relative;
         height: auto;
         float: right;
-        
     }
 
 .image-block-1 .position-absolute-1{
     position: absolute;
-    width: 25%;
+    max-width: 23%;
+    padding-top: 110px;
+    margin-left: 100px;
     
     
 
