@@ -1,0 +1,152 @@
+.team{
+    padding: 70px 0px;
+}
+
+.swiper-wrapper{
+    
+    
+    display: flex;
+    font-size: 16px;
+    width:100%;
+    height: auto;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width:100%;
+    height: auto;
+    
+    
+
+    /* Center slide text vertically */
+    
+    display: -webkit-flex;
+    display: flex;
+    
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+    .grid-x{
+        margin: 0px 18px;
+    }
+    .info{
+    position: absolute;
+    width: 85%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    background: #fff;
+    border-radius: 5px;
+    .info-upper{
+        border-bottom: 1px solid #888888;
+        padding: 25px 10px;
+        .team-name{
+            padding-top: 25px;
+        }
+        .team-name a{
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: #000000;
+            cursor: pointer;
+            
+            
+        }
+        .team-position{
+            font-size: 0.9375rem;
+            margin-bottom: 10px;
+            color: #888888;
+        }
+    }
+    .social-links{
+        padding: 5px 0px;
+
+        i{
+            padding: 0px 3px;
+            
+        }
+
+        #twitter{
+            color:#888888;
+            &:hover{
+                color:#1da1f2;
+                transition: all ease 0.5s;
+                cursor: pointer;
+
+            }  
+        }
+        #fb{
+            color:#888888;
+            &:hover{
+                color:#4267B2;
+                transition: all ease 0.5s;
+                cursor: pointer;
+
+            }  
+        }
+        #insta{
+            color:#888888;
+            &:hover{
+                color: #e1306c;
+                transition: all ease 0.5s;
+                cursor: pointer;
+
+            }  
+        }
+        #pin{
+            color:#888888;
+            &:hover{
+                color: #bd081c;
+                transition: all ease 0.5s;
+                cursor: pointer;
+
+            }  
+        }
+
+        
+        
+        
+        
+    }
+    
+
+
+
+    }
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+  }
+  
+.mySwiper-1 .swiper-wrapper{
+    height: 300px;
+    background: gray;
+    display: flex;
+    font-size: 16px;
+}
+.section-title{
+  font-size: 1.9375rem;
+  line-height: 1.4;
+    
+    margin-bottom: 0.5rem;
+}
+.section-head{
+  line-height: 1.6;
+}
