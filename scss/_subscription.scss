@@ -49,6 +49,14 @@
             font-weight: 700;
             font-size: 1.1875rem;
         }
+        .img-1{
+            filter: grayscale(100%);
+            cursor: pointer;
+        }
+        &:hover .img-1{
+                filter:none;
+            
+        }
        
         
     }
@@ -65,7 +73,6 @@
         .pricing-table {
             margin-top: -10px;
             
-
         }
         
         
@@ -77,20 +84,39 @@
             font-weight: 700;
             font-size: 1.1875rem;  
         }
+        .img-2{
+            filter: grayscale(100%);
+            cursor: pointer;
+        }
+        &:hover .img-2{
+                filter:none;
+            }
+        
         
 
     }
     .cell-3{
         background: #fff;
         border-bottom-right-radius: 5px;
+
+
+        .title-3{
+            background: linear-gradient(142deg, #2a0845, #6441a5);
+            text-transform: uppercase;
+            color: #ffffff;
+            padding: 20px 0;
+            font-weight: 700;
+            font-size: 1.1875rem;
+        }
+        .img-3{
+            filter: grayscale(100%);
+            cursor: pointer;
+        }
+        &:hover .img-3{
+                filter:none;
+            }
     }
     
-    .title-3{
-        background: linear-gradient(142deg, #2a0845, #6441a5);
-        text-transform: uppercase;
-        color: #ffffff;
-        padding: 20px 0;
-        font-weight: 700;
-        font-size: 1.1875rem;
-    }
+    
+    
 }
