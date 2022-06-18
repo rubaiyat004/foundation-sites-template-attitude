@@ -22,16 +22,18 @@
        
         filter: grayscale(100%);
         transition: ease all 0.5s;
-        &:hover{
+        
+    }
+    .relative:hover{
+        img{
             filter: none;
             
         }
-        
-
-
     }
     
+    
 }
+
 
 .entry-meta{
     .category-a{
