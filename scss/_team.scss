@@ -9,6 +9,7 @@
     font-size: 16px;
     width:100%;
     height: auto;
+    padding: 30px 0px;
 }
 .swiper {
     width: 100%;
@@ -39,16 +40,18 @@
     align-items: center;
 
     .grid-x{
-        margin: 0px 18px;
+        margin: 10px 18px;
     }
     .info{
     position: absolute;
     width: 85%;
     height: auto;
-    top: 50%;
+    
     left: 50%;
-    transform: translate(-50%, 20%);
+    bottom: 15%;
+    transform: translate(-50%, 30%);
     background: #fff;
+    
     border-radius: 5px;
     .info-upper{
         border-bottom: 1px solid #888888;
@@ -133,6 +136,7 @@
     height: auto;
     object-fit: cover;
     position: relative;
+    
   }
 
 .sponsor{
