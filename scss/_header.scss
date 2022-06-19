@@ -15,6 +15,32 @@ header{
         height: 75vh; 
         background: linear-gradient(142deg, rgba(211, 16, 39, 0.5), rgba(234, 56, 77, 0.5));
     }
+    .top-nav .top-bar-main .main-item{
+        padding: 1rem .7rem;
+         font-weight: 300; font-size:1rem;
+        &:hover{
+            border-top: 2px solid white;
+            
+            transition: all ease .25s;
+            color: $white;
+        }
+        
+    }
+    .dropdown{
+        .menu-text{
+            font-size: 1.75rem; color:#ffffff; font-weight: 500; cursor: pointer;
+        }
+    }
+    .header-content{
+        padding-top: 35vh;
+        h1{
+            font-size: 3.75rem; font-weight:700; color:#fff;
+        }
+        h3{
+            font-size: 1.2rem; font-weight:600; color:#fff;
+        }
+    }
+    
 }
 
 
@@ -42,11 +68,4 @@ header{
     margin-top: .5rem;
 
 }
-.top-nav .top-bar-main .main-item{
-    padding: 1rem .7rem;
-    &:hover{
-        border-top: 2px solid white;
-        transition: all ease .25s;
-    }
-    
-}
+
