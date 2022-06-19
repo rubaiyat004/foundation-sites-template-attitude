@@ -1,3 +1,8 @@
+@mixin media-xm {
+    @media screen and (min-width: 360px){
+        @content;
+    }
+}
 @mixin media-sm {
     @media screen and (min-width: 639px){
         @content;
