@@ -16,3 +16,28 @@
         }
     }
 }
+.image-block-1 {
+        max-width:100%;
+        position: relative;
+        height: auto;
+        float: right;
+    }
+
+.image-block-1 .position-absolute-1{
+    position: absolute;
+    max-width: 23%;
+    
+}
+
+.image-block-2 {
+    max-width:100%;
+    position: relative;
+    height: auto;
+    float: left;
+}
+
+.image-block-2 .position-absolute-2{
+position: absolute;
+max-width: 23%;
+
+}
