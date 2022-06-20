@@ -267,4 +267,52 @@
             display: none;
         }
     }
+    .about{
+        .grid-x{
+            padding: 10px 0px;
+            .cell{
+                padding: 50px 0px;
+                img{
+                    padding-bottom: 10px;
+                }
+            }
+        }
+        .title{
+            font-size: 1.375rem;
+        }
+        .image-block-1 .first-img{
+            max-width:75%;
+            position: relative;
+            height: auto;
+            float: right;
+        }
+    
+        .image-block-1 .position-absolute-1{
+        position: absolute;
+        max-width: 23%;
+        transform: translate(40%, 70%);
+        
+        
+        }
+    
+         .image-block-2 .first-img{
+        max-width:75%;
+        position: relative;
+        height: auto;
+        float: left;
+        }
+    
+        .image-block-2 .position-absolute-2{
+         position: absolute;
+         max-width: 23%;
+         transform: translate(60%, 70%);
+         
+         }
+         .position-absolute-1, .position-absolute-2{
+            img{
+                display: block;
+            }
+        }
+
+    }
 }
