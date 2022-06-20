@@ -3,6 +3,7 @@ header{
         background-image: url(../scss/image/about-4.jpg);
     width:100%; height: 75vh; position: relative;
     background-size: cover;
+    z-index: 10;
 
     }
     
@@ -16,7 +17,7 @@ header{
         background: linear-gradient(142deg, rgba(211, 16, 39, 0.5), rgba(234, 56, 77, 0.5));
     }
     .top-nav .top-bar-main .main-item{
-        padding: 1rem .7rem;
+        padding: 1rem 1rem;
          font-weight: 300; font-size:1rem;
         &:hover{
             border-top: 2px solid white;

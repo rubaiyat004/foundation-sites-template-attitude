@@ -10,6 +10,8 @@
                 font-weight: 600;
             }
         }
+
+        
     }
     .bottom-cell{
         h1{
@@ -173,7 +175,7 @@
             padding-top: 30vh;
         }
         .top-nav .top-bar-main .main-item{
-            padding: 1rem 1rem 1rem 0rem ;
+            padding: 1rem .7rem;
              font-weight: 300; font-size:1rem;
             &:hover{
                 border-top: 2px solid white;
@@ -203,6 +205,9 @@
                 font-size: 1.2rem;
                 font-weight: 600;
             }
+        }
+        .top-nav .top-bar-main .main-item{
+            padding: 1rem 1rem;
         }
     }
     .bottom-cell{
