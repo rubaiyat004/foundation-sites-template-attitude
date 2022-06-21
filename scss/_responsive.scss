@@ -168,6 +168,14 @@
 
 @include media-md{
     header{
+        .top-nav{
+            position: fixed;
+            z-index: 10;
+            width: 100vw;
+            border-bottom: 1px solid #888888;
+            
+        }
+        
         .menu .menu-text{
             padding: 0.7rem 0rem;
         }
