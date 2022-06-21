@@ -10,15 +10,30 @@
                 font-weight: 600;
             }
         }
+        .nav-btn{
+            align-items: center;
+            display: flex;
+            justify-content: end;
+            z-index: 1;
+            .button{
+              padding-left: 10px;
+              padding-right: 10px;
+              background: linear-gradient(142deg, #fc4a1a, #f7b733);
+              border-radius: 20px;
+              display: inline-block;
+              vertical-align: middle;
+              margin: 0 0 1rem 0;
+              padding: 0.85em 1em;
+              width: 100px;
+              &:hover{
+                background: #333333;
+                transition: all ease .15s;
+              }
+          
+            }
+          }
         
-        .overlay{
-            height: 75vh;
-        }
-        .top-bar{
-            height: 100vh;
-            z-index: 10;
-            
-        }
+        
 
         
     }
@@ -108,34 +123,27 @@
                 font-size: 1.2rem;
                 font-weight: 600;
             }
+            .top-bar-main{
+                margin-left: 0rem;
+            }
         }
-        .overlay{
-            height: 75vh;
-        }
-        .top-bar{
-            height: 20vh;
-            z-index: 10;
-        }
-
-        .top-nav{
-            position: fixed;
-            z-index: 10;
-            width: 100vw;
-            height: auto;
-            border-bottom: 1px solid #888888;
-            z-index: 10;
-            .main-item{
-                padding: 1rem .3rem;
-                 font-weight: 300; font-size:1rem;
-                &:hover{
-                    border-top: 2px solid white;
-                    
-                    transition: all ease .25s;
-                    color: $white;
-                }
-        }
-            
-        }
+        .nav-btn{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            .button{
+              padding-left: 10px;
+              padding-right: 10px;
+              background: linear-gradient(142deg, #fc4a1a, #f7b733);
+              border-radius: 20px;
+              display: inline-block;
+              vertical-align: middle;
+              margin: 0 0 1rem 0;
+              padding: 0.85em 1em;
+              width: 100px;
+          
+            }
+          }
     }
     .bottom-cell{
         h1{
@@ -205,28 +213,21 @@
 @include media-md{
     header{
         .top-nav{
-            position: fixed;
-            z-index: 10;
-            width: 100vw;
-            height: auto;
-            border-bottom: 1px solid #888888;
-            z-index: 10;
-            .main-item{
-                padding: 1rem .3rem;
-                 font-weight: 300; font-size:1rem;
-                &:hover{
-                    border-top: 2px solid white;
-                    
-                    transition: all ease .25s;
-                    color: $white;
-                }
-        }
-        
             
+            
+            
+            border-bottom: 1px solid #888888;
+
+            height: auto;
+            
+            .top-bar-main{
+                margin-left: 3rem;
+            }
         }
-        .top-bar{
-            height: 18vh;
-            z-index: 10;
+        .nav-btn{
+           z-index: 10;
+            display: block;
+            
         }
         
         .menu .menu-text{
@@ -235,8 +236,17 @@
         .header-content{
             padding-top: 30vh;
         }
-        
-        
+        .top-nav .top-bar-main .main-item{
+            padding: 1rem .7rem;
+            
+             font-weight: 300; font-size:1rem;
+            &:hover{
+                border-top: 1px solid white;
+                
+                transition: all ease .25s;
+                color: $white;
+            }
+    }
     }
     .bottom-cell{
     h1{
@@ -261,17 +271,26 @@
         }
         .top-nav .top-bar-main .main-item{
             padding: 1rem 1rem;
-            padding-left: 1rem;
-        }
-        .top-bar-main{
-            padding-left: 10rem;
-        }
-        .top-bar{
-            height: 15vh;
-            z-index: 10;
+            
         }
         
-        
+        .nav-btn{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            .button{
+              padding-left: 10px;
+              padding-right: 10px;
+              background: linear-gradient(142deg, #fc4a1a, #f7b733);
+              border-radius: 20px;
+              display: inline-block;
+              vertical-align: middle;
+              margin: 0 0 1rem 0;
+              padding: 0.85em 1em;
+              width: 150px;
+          
+            }
+          }
     }
     .bottom-cell{
         h1{
