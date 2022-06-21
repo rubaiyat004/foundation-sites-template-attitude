@@ -10,6 +10,15 @@
                 font-weight: 600;
             }
         }
+        
+        .overlay{
+            height: 75vh;
+        }
+        .top-bar{
+            height: 100vh;
+            z-index: 10;
+            
+        }
 
         
     }
@@ -100,6 +109,33 @@
                 font-weight: 600;
             }
         }
+        .overlay{
+            height: 75vh;
+        }
+        .top-bar{
+            height: 20vh;
+            z-index: 10;
+        }
+
+        .top-nav{
+            position: fixed;
+            z-index: 10;
+            width: 100vw;
+            height: auto;
+            border-bottom: 1px solid #888888;
+            z-index: 10;
+            .main-item{
+                padding: 1rem .3rem;
+                 font-weight: 300; font-size:1rem;
+                &:hover{
+                    border-top: 2px solid white;
+                    
+                    transition: all ease .25s;
+                    color: $white;
+                }
+        }
+            
+        }
     }
     .bottom-cell{
         h1{
@@ -172,8 +208,25 @@
             position: fixed;
             z-index: 10;
             width: 100vw;
+            height: auto;
             border-bottom: 1px solid #888888;
+            z-index: 10;
+            .main-item{
+                padding: 1rem .3rem;
+                 font-weight: 300; font-size:1rem;
+                &:hover{
+                    border-top: 2px solid white;
+                    
+                    transition: all ease .25s;
+                    color: $white;
+                }
+        }
+        
             
+        }
+        .top-bar{
+            height: 18vh;
+            z-index: 10;
         }
         
         .menu .menu-text{
@@ -182,16 +235,8 @@
         .header-content{
             padding-top: 30vh;
         }
-        .top-nav .top-bar-main .main-item{
-            padding: 1rem .7rem;
-             font-weight: 300; font-size:1rem;
-            &:hover{
-                border-top: 2px solid white;
-                
-                transition: all ease .25s;
-                color: $white;
-            }
-    }
+        
+        
     }
     .bottom-cell{
     h1{
@@ -216,7 +261,17 @@
         }
         .top-nav .top-bar-main .main-item{
             padding: 1rem 1rem;
+            padding-left: 1rem;
         }
+        .top-bar-main{
+            padding-left: 10rem;
+        }
+        .top-bar{
+            height: 15vh;
+            z-index: 10;
+        }
+        
+        
     }
     .bottom-cell{
         h1{
