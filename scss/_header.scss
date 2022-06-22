@@ -1,5 +1,35 @@
 header{
-    
+    .bar-in{
+        .align-justify{
+            -webkit-box-pack: justify;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+        .small-logo{
+            color:#fff;
+            height: auto;
+            font-size: 1.75rem;
+           
+        }
+        .small-btn{
+            color:#fff;
+            padding-left: 10px;
+              padding-right: 10px;
+              background: linear-gradient(142deg, #fc4a1a, #f7b733);
+              border-radius: 20px;
+              display: inline-block;
+              vertical-align: middle;
+              margin: 0 0 1rem 0;
+              padding: 0.85em 1em;
+              width: 100px;
+            
+             
+        }
+        width: -webkit-fill-available;
+        z-index: 10;
+        
+    }
     
     .header-top{
         background-image: url(../scss/image/about-4.jpg);
