@@ -23,6 +23,10 @@ header{
               margin: 0 0 1rem 0;
               padding: 0.85em 1em;
               width: 100px;
+              &:hover{
+                background: #333333;
+                transition: all ease .15s;
+              }
             
              
         }

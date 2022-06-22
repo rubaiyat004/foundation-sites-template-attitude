@@ -1,5 +1,9 @@
 @include media-xm{
     header{
+
+        .small-hide{
+            display: none;
+        }
         .header-content{
             h1{
                 font-size: 1.75rem;
@@ -15,6 +19,7 @@
             display: flex;
             justify-content: end;
             z-index: 1;
+            display: none;
             .button{
               padding-left: 10px;
               padding-right: 10px;
@@ -114,6 +119,12 @@
 
 @include media-sm{
     header{
+        .menu-text{
+            display: block;
+        }
+        .bar-in{
+            display: none;
+        }
         .header-content{
             h1{
                 font-size: 1.75rem;
